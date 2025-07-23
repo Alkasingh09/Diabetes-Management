@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health & Wellness</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <p style="background-image: url('img_girl.jpg');"></p>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Mental Health & Wellness</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#disorders">Common Disorders</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#quiz">Quiz</a></li>
+                    <li><a href="#chatbot">Chatbot</a></li>
+                    <li><a href="#mood-tracker">Mood Tracker</a></li>
+                    <li><a href="#meditation-timer">Meditation Timer</a></li>
+                    <li><a href="#auth">Login/Signup</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <div class="container">
+            <h2>Introduction to Mental Health</h2>
+            <p>Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act, especially in coping with stress and making life choices.</p>
+        </div>
+    </section>
+
+    <!-- Common Disorders Section -->
+    <section id="disorders">
+        <div class="container">
+            <h2>Common Mental Health Disorders</h2>
+            <ul>
+                <li>Anxiety Disorders</li>
+                <li>Depression</li>
+                <li>Post-Traumatic Stress Disorder (PTSD)</li>
+                <li>Eating Disorders</li>
+                <li>Substance Use Disorders</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions">
+        <div class="container">
+            <h2>Solutions for Mental Wellness</h2>
+            <p>Here are some effective strategies to maintain and improve mental health:</p>
+            <ul>
+                <li>Meditation and Mindfulness Apps</li>
+                <li>Therapy and Counseling (Online and In-Person)</li>
+                <li>Regular Physical Exercise and Proper Diet</li>
+                <li>Practicing Gratitude and Journaling</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Mental Health Quiz Section -->
+    <section id="quiz">
+        <div class="container">
+            <h2>Mental Health Quiz</h2>
+            <p>Take this short quiz to understand your current mental well-being:</p>
+            <form id="quizForm">
+                <label>Do you often feel anxious or worried?</label>
+                <select id="q1">
+                    <option value="0">Never</option>
+                    <option value="1">Sometimes</option>
+                    <option value="2">Often</option>
+                    <option value="3">Always</option>
+                </select>
+
+                <label>Do you find it difficult to sleep at night?</label>
+                <select id="q2">
+                    <option value="0">Never</option>
+                    <option value="1">Sometimes</option>
+                    <option value="2">Often</option>
+                    <option value="3">Always</option>
+                </select>
+
+                <label>Do you struggle to concentrate or focus?</label>
+                <select id="q3">
+                    <option value="0">Never</option>
+                    <option value="1">Sometimes</option>
+                    <option value="2">Often</option>
+                    <option value="3">Always</option>
+                </select>
+
+                <button type="button" id="submitQuiz">Submit Quiz</button>
+            </form>
+            <div id="quizResult"></div>
+        </div>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section id="chatbot">
+        <div class="container">
+            <h2>Mental Health Chat Support</h2>
+            <div id="chatbox">
+                <div id="chatMessages"></div>
+                <input type="text" id="userInput" placeholder="Type your message...">
+                <button id="sendMessage">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mood Tracker Section -->
+    <section id="mood-tracker">
+        <div class="container">
+            <h2>Mood Tracker</h2>
+            <input type="range" id="moodSlider" min="0" max="10" value="5">
+            <p>Your Mood: <span id="moodValue">5</span></p>
+        </div>
+    </section>
+
+    <!-- Meditation Timer Section -->
+    <section id="meditation-timer">
+        <div class="container">
+            <h2>Meditation Timer</h2>
+            <input type="number" id="meditationMinutes" placeholder="Enter minutes" min="1">
+            <button id="startTimer">Start</button>
+            <div id="timerDisplay"></div>
+        </div>
+    </section>
+
+    <!-- Login/Signup Section -->
+    <section id="auth">
+        <div class="container">
+            <h2>Login or Signup</h2>
+            <div id="login">
+                <h3>Login</h3>
+                <input type="email" id="loginEmail" placeholder="Email">
+                <input type="password" id="loginPassword" placeholder="Password">
+                <button id="loginButton">Login</button>
+            </div>
+            <div id="signup">
+                <h3>Signup</h3>
+                <input type="text" id="signupName" placeholder="Name">
+                <input type="email" id="signupEmail" placeholder="Email">
+                <input type="password" id="signupPassword" placeholder="Password">
+                <button id="signupButton">Signup</button>
+            </div>
+        </div>
+    </section>
+
+    <
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>

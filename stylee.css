@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://img.freepik.com/premium-photo/white-sugar-table-light-background-closeup_441923-10379.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+   
+   
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 50px;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h1:hover {
+    color: antiquewhite;
+}
+
+.container {
+    text-align: center;
+    padding: 90px;  /* Increased padding for a bigger box */
+    border-radius: 50px;  /* Increased border-radius for smoother corners */
+    max-width: 800px;  /* Increased max-width for a larger box */
+    background-color: rgba(255, 255, 255, 0.8);  
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Added a shadow effect */
+}
+
+header h2 {
+    margin-bottom: 30px;
+    font-size: 36px;  /* Increased font size */
+    
+}
+
+h2 {
+    color: orangered;
+}
+h2:hover{
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 18px;  /* Slightly larger font size */
+}
+
+.calculator label {
+    display: block;
+    font-size: 30px;  
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 15px;  /* Increased padding for a larger input box */
+    margin-bottom: 30px;  /* Increased margin for better spacing */
+    font-size: 18px;  /* Increased font size */
+    border: 1px solid #ddd;
+    border-radius: 8px;  /* Increased border-radius */
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;  /* Increased padding for a bigger button */
+    font-size: 18px;  /* Increased font size */
+    border: none;
+    border-radius: 10px;  /* Increased border-radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5c6bc0;
+}
+
+#result {
+    margin-top: 30px;  /* Increased margin for better spacing */
+    font-size: 22px;  /* Increased font size */
+    font-weight: bold;
+    color: #333;
+}
